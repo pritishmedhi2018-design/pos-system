@@ -12,7 +12,8 @@ from deep_translator import GoogleTranslator
 st.set_page_config(
     page_title="Smart Shop",
     page_icon="🛍️",
-    layout="wide"
+    layout="wide",
+    initial_sidebar_state="expanded"
 )
 
 # ====================================
